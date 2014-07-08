@@ -1,6 +1,8 @@
 BaseKit Ruby Sample Code
 ========================
 
+[![Code Climate](https://codeclimate.com/github/basekit/ruby-sample-code.png)](https://codeclimate.com/github/basekit/ruby-sample-code)
+
 Sample Ruby client code for BaseKit's REST API. This isn't a gem, but it
 illustrates how to sign an API request successfully in Ruby. It's intended as a
 point of reference for integrating Ruby-based systems with our API.
