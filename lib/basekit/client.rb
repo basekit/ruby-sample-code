@@ -35,7 +35,6 @@ module BaseKit
     private
 
     def create_request(method, path, body)
-      request_token = @oauth_consumer.get_request_token(:oauth_callback => '')
       token = OAuth::Token.new(access_token, access_secret)
       oauth_params = {
         :consumer => @oauth_consumer,
